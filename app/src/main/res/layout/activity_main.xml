@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/btc_price_tv"
+        android:id="@+id/btcPriceTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="40sp"

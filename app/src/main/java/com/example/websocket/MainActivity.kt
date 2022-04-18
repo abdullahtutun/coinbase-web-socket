@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
             val moshi = Moshi.Builder().build()
             val adapter: JsonAdapter<BitcoinTicker> = moshi.adapter(BitcoinTicker::class.java)
             val bitcoin = adapter.fromJson(message)
-            runOnUiThread { btc_price_tv.text = "1 BTC: ${bitcoin?.price} $" }
+            runOnUiThread { btcPriceTv.text = "1 BTC: ${bitcoin?.price} $" }
         }
     }
 
